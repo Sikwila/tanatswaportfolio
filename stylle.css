@@ -1,0 +1,366 @@
+body{
+   padding: 0px;
+   margin: 0px;
+   border: 0px;
+}
+
+#home-section{
+   width: 100%;
+   height: 100vh;
+background-image: url(./Assets/images/tanatswa-hero-img.jpg);
+   background-position: center;
+   background-size: cover;
+  
+   
+}
+
+.hello-section{
+   font-size: medium;
+   font-weight: 200px;
+  color: white;
+  padding-left: 70px;
+  padding-top: 60px;
+
+  span{
+   color: rgb(219, 18, 119);
+   font-size: larger;
+   font-weight: 900;
+  }
+}
+
+.introduction{
+   display: flex;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main p,.main hr{
+   color: white;
+}
+
+
+.hero-line{
+   height:3vh;
+   width:2px;
+   background-color: white;
+   margin-top: -45px;
+}
+
+
+.hero-btn{
+   width: 200px;
+   height: 40px;
+   background-color: transparent;
+   border: 2px solid white;
+}
+
+.hero-btn a{
+   text-decoration: none;
+   color: white;
+}
+
+.intro{
+   font-size: 80px;
+   font-weight: bolder;
+}
+.occupation,.hero-icons{
+   display: flex;
+   flex-direction:row;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+}
+
+
+.occupation p{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: -35px;
+}
+
+.hero-icons{
+   margin-top: 140px;
+}
+
+
+.hero-welcome{
+   color: rgb(219, 18, 119);
+   font-size: 30px;
+   font-weight: bolder;
+   padding-top: 120px;
+   margin-bottom: -50px;
+}
+
+
+
+
+.navbar{
+   width: 1200px;
+   height: 75px;
+   margin-bottom: 30px;
+   padding-left: 600px;
+}
+
+
+.logo{
+   color: rgb(247, 246, 235);
+   font-size: 20px;
+   font-family: Arial;
+   padding-left: 20px; 
+   float: left 30px;
+   padding-top: -30px;
+   padding-bottom: 45px;
+}
+
+.menu{
+   width: -100px;
+   float: left;
+   height: 50px;
+
+}
+
+ul{
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   a{
+      text-decoration: none;
+      color: rgb(219, 18, 119);
+   }
+}
+
+ul li{
+   list-style: none;
+   margin-left: 50px;
+   margin-top: -10px;
+   font-size: 15px;
+ 
+
+}
+ul li{
+   text-decoration: none;
+   color: white;
+   font-family: Arial;
+   font-weight: 30px;
+}
+.side{
+   
+   margin-left: 150px;
+   width: 200px;
+   height: 200px;
+   margin-top: 30px;
+
+}
+.CEO{
+   margin-left: 150px;
+   width: 200px;
+   height: 200px;
+   margin-bottom: 20px;
+   margin-top: 45px;
+
+}
+
+.cabin{
+   width: 200px;
+   height: 200px;
+   margin-left: 400px;
+margin-top: -300px;
+
+}
+
+.image1:hover{
+   scale: 1.3;
+   transition:3s;
+}
+.image2:hover{
+   scale: 1.3;
+   transition:3s;
+}
+  
+.image3:hover{
+   scale: 1.3;
+   transition:3s;
+}
+.image4:hover{
+   scale: 1.3;
+   transition:3s;
+}
+
+.pencil{
+   width: 200px;
+   height: 200px;
+   margin-left: 200px;
+   margin-top: -250px;
+   padding-bottom: -60px;
+
+}
+
+#About-section{
+   width: 100%;
+   height: 100vh;
+   background-color: black;
+}
+
+.heading1{
+   color: white;
+   font-weight: bold;
+   text-align: center;
+   padding-top: 50px;
+}
+.hearding2{
+   color: chartreuse;
+   font-weight: lighter;
+   text-align: center;
+   padding-top: 15px;
+   padding-bottom: 50px;
+}
+.para-1{
+   color: white;
+   padding-left:60px;
+}
+
+#text1{
+   width:100%;
+   height: 100vh;
+}
+
+.my-work-heading{
+   font-size: 40px;
+   text-align: center;
+   padding-top: 60px;
+}
+
+.rate{
+   display: flex;
+   flex-direction: column;
+}
+
+
+.main-div-about{
+   margin-top: 60px;
+}
+
+
+.image1,.image2,.image3,.image4{
+   width: 200px;
+   height: 180px;
+   margin-top: 60px;
+}
+
+.about-images{
+   display: flex;
+   flex-direction:row ;
+   justify-content: center;
+}
+
+.my-work-main-div{
+ margin-left: 400px;
+ margin-top: -40px;
+}
+
+.image3,.image1{
+   margin-right: 50px;
+}
+
+.bottom-div{
+   margin-bottom: 40px;
+}
+
+.img1,.img2,.img3,.img4{
+   width: 300px;
+   height: 300px;
+}
+
+#STRATEGIES-section{
+width: 100%;
+height: 100vh;
+background-color: white;
+
+}
+
+.strategies-heading{
+   font-size: 40px;
+   text-align: center;
+   margin-top: 100px;
+}
+
+.freelance-heading{
+   font-size: 40px;
+   text-align: center;
+   padding-top: 90px;
+}
+
+
+.bar1,.bar2,.bar3,.bar4,.bar5,.bar6{
+width:340px;
+height: 13px;
+background-color: rgb(240, 7, 182);
+border-right: 15px solid black;
+margin-top: 30px;
+
+}
+
+.bars1{
+   display: flex;
+   flex-direction: column;
+}
+
+.bars2{
+   display: flex;
+   flex-direction: column;
+   margin-left: 150px;
+}
+
+
+
+.bars{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;  
+   margin-top: 160px;
+   
+}
+
+
+.strategies-text{
+   padding-top: -30px;
+}
+
+footer{
+       width: 100%;
+       height: 85vh;
+    background-color: black;
+   }
+
+
+   .main-footer-div{
+      display: flex;
+      flex-direction: row;
+     margin: 200px;
+     margin-top: 100px;
+      color: white;
+   }
+      
+ 
+.footer-subdiv-1,.footer-subdiv-2,.footer-subdiv-3{
+   margin-top: 200px;
+}
+
+
+.sub1,.wt,.mtr,.hyp{
+   font-size: 15px;
+   font-weight: bold;
+}
+
+
+.footer-subdiv-2{
+   margin-left: 80px;
+   margin-right: 80px;
+}
+
